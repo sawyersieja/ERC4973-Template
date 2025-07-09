@@ -121,13 +121,15 @@ cast send <contract_address> "revoke(address)" 0xVictimAddress \
 
 ```
 .
-├── src/
-│   └── ERC4973Template.sol              # Soulbound token contract
 ├── script/
 │   └── ERC4973Template.s.sol           # Deployment script
-├── metadata.json                       # Sample metadata file
-├── out/                                # Build artifacts
+├── src/
+│   └── ERC4973Template.sol              # Soulbound token contract
+├── test/
+│   └── ERC4973Template.t.sol           # Testing purposes
+├── .gitignore                          # File tracking
 ├── foundry.toml                        # Foundry config
+├── metadata.json                       # Sample metadata file
 └── README.md
 ```
 
