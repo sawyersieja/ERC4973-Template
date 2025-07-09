@@ -1,0 +1,15 @@
+{
+    "name": "ERC-4973 Template Token",
+    "description": "A non-transferable, account-bound token deployed from the ERC4973Template smart contract for testing purposes.",
+    "image": "https://via.placeholder.com/512",
+    "attributes": [
+        {
+            "trait_type": "Soulbound",
+            "value": "True"
+        },
+        {
+            "trait_type": "Template",
+            "value": "Generic ERC-4973"
+        }
+    ]
+}
